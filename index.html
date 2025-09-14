@@ -1,1 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Blog</title>
+  <link rel="stylesheet" href="assets/styles.css">
 
+  <!-- 외부 라이브러리 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it@14/dist/markdown-it.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11/lib/common.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11/styles/github.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="#/" class="logo">My Blog</a>
+    <nav class="nav">
+      <a href="#/">Home</a>
+      <a href="#/tags">Tags</a>
+      <a href="https://github.com/USERNAME/REPO" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="app" class="container">
+    <!-- 라우터가 여기다가 목록/상세를 렌더링 -->
+  </main>
+
+  <footer class="site-footer">
+    © <span id="year"></span> My Blog
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
