@@ -1,1 +1,14 @@
-
+:root { --w: 780px; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.6; }
+.site-header, .site-footer { border-bottom: 1px solid #eee; padding: 12px 16px; }
+.site-footer { border-top: 1px solid #eee; border-bottom: 0; color: #666; }
+.container { max-width: var(--w); margin: 24px auto; padding: 0 16px; }
+.logo { font-weight: 700; text-decoration: none; color: #111; }
+.post-card { padding: 16px 0; border-bottom: 1px solid #f0f0f0; }
+.post-card h2 { margin: 0 0 4px; font-size: 22px; }
+.meta { color: #777; font-size: 14px; }
+.post-content img { max-width: 100%; height: auto; }
+code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+pre { background: #f8f9fa; padding: 12px; overflow: auto; border-radius: 6px; }
+.tag { display: inline-block; padding: 2px 8px; margin: 0 6px 6px 0; background:#f1f3f5; border-radius: 999px; font-size: 12px; color:#444; text-decoration: none; }
